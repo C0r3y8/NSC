@@ -1,6 +1,6 @@
 Projet Cserveur
 ----------------------------
-- Serveur actuellement en version 0.2
+- Serveur actuellement en version 0.1
 - Convention de nommage des erreurs en anglais
 - Documentation en anglais
 
