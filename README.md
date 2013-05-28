@@ -1,4 +1,4 @@
-Projet Cserveur
+Projet NewServeurC++
 ----------------------------
 - Serveur actuellement en version 0.1
 - Convention de nommage des erreurs en anglais
