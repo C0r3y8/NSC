@@ -5,7 +5,9 @@
 #include <stdio.h>
 #include <iostream>
 /**
+ *  Parse module, page and type of request
  *
+ * @author Stéphane Barale <stephane.barale@gmail.com>
  * @brief The HTTPRequest class
  * @since v0.2
  */

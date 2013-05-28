@@ -173,6 +173,13 @@ bool Serveur::isStarted() {
     return isStart;
 }
 
+/**
+ * Accept the connection with the client
+ * @brief Serveur::acceptClient
+ * @param sockClient
+ * @param addrClient
+ * @return
+ */
 int Serveur::acceptClient(SOCKET &sockClient, SOCKADDR_IN &addrClient) {
     int addrClientLen = sizeof(addrClient);
     #ifdef _WIN32
