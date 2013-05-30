@@ -28,6 +28,7 @@ A venir
 - Test unitaire
 - Serveur parallèle
 - Essaie d'envoie de code HTML (Envoyer une requête au client)
+- Optimisation mémoire
 
 Astuces/Aide
 ----------------------------
