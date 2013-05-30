@@ -1,6 +1,6 @@
 Projet NewServeurC++
 ----------------------------
-- Serveur actuellement en version 0.1
+- Serveur actuellement en version 0.2
 - Convention de nommage des erreurs en anglais
 - Documentation en anglais
 
@@ -19,6 +19,7 @@ Terminé
 - Implémentation des threads (Multi-Threading)
 - Type de la requête recupérée
 - Ajout class Manager
+- Convertion char* en string
 
 A venir 
 ----------------------------
