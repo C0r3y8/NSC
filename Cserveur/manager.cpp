@@ -15,17 +15,17 @@ void* Manager::handling(void *params) {
     SOCKET sockClient = Obj->sockClient;
     SOCKADDR_IN addrClient = Obj->addrClient;
 
-    string request = serveur->reciveRequest(sockClient, addrClient);
+    string query = serveur->reciveQuery(sockClient, addrClient);
 
-    HTTPRequest* http = new HTTPRequest(request);
+    //HTTPRequest* http = new HTTPRequest(request);
     cout << "Request of the client" << endl;
     cout << "---------------------------------" << endl;
-    cout << http->getRequest() << endl;
+    cout << query << endl;
     cout << "---------------------------------" << endl;
-    cout << http->getType() << endl;
+    //cout << http->getType() << endl;
     cout << "End of request" << endl;
 
-    delete http;
+    //delete http;
 
     return (void*)0;
 }

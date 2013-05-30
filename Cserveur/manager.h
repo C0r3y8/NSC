@@ -32,14 +32,14 @@
 
 #include <pthread.h>
 #include "serveur.h"
-#include "httprequest.h"
+#include "httpquery.h"
 
 /**
  * Thread execution
  *
  * @author Stéphane Barale <stephane.barale@gmail.com>
  * @brief The Manager class
- * @since v0.2
+ * @since v0.1
  */
 class Manager {
 public:

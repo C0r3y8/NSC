@@ -203,13 +203,13 @@ int Serveur::acceptClient(SOCKET &sockClient, SOCKADDR_IN &addrClient) {
 
 
 /**
- * Recive the request of the client
- * @brief Serveur::reciveRequest
+ * Recive the query of the client
+ * @brief Serveur::reciveQuery
  * @return
  */
-string Serveur::reciveRequest(SOCKET sockClient, SOCKADDR_IN addrClient) {
+string Serveur::reciveQuery(SOCKET sockClient, SOCKADDR_IN addrClient) {
     char buffer[BUFFERSIZE];
-    string request;
+    string query;
     int addrClientLen = sizeof(addrClient);
 
     #ifdef _WIN32
@@ -229,8 +229,8 @@ string Serveur::reciveRequest(SOCKET sockClient, SOCKADDR_IN addrClient) {
         #endif
             return (char*) "failed";
     }
-    request = string(buffer);
-    return request;
+    query = string(buffer);
+    return query;
 }
 
 void Serveur::setStart(bool start) {

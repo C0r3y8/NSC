@@ -43,7 +43,7 @@
  *
  * @author Stéphane Barale <stephane.barale@gmail.com>
  * @brief The Serveur class
- * @since v0.2
+ * @since v0.1
  */
 class Serveur {
     public:

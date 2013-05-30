@@ -7,13 +7,19 @@ SOURCES += main.cpp \
     serveur.cpp \
     pages.cpp \
     manager.cpp \
-    httprequest.cpp
+    httpanswer.cpp \
+    parser.cpp \
+    httpquery.cpp \
+    fileprocessing.cpp
 
 HEADERS += \
     serveur.h \
     pages.h \
     manager.h \
-    httprequest.h
+    httpanswer.h \
+    parser.h \
+    httpquery.h \
+    fileprocessing.h
 
 win32:LIBS += -lwsock32
 LIBS += -lpthread
