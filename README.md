@@ -1,6 +1,6 @@
 Projet NewServeurC++
 ----------------------------
-- Serveur actuellement en version 0.2
+- Serveur actuellement en version 0.1.2
 - Convention de nommage des erreurs en anglais
 - Documentation en anglais
 
